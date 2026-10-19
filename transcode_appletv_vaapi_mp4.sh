@@ -12,7 +12,7 @@ QP_HEVC="${QP_HEVC:-22}"
 VAAPI_DEVICE="${VAAPI_DEVICE:-/dev/dri/renderD128}"
 LIBVA_DRIVER_NAME="${LIBVA_DRIVER_NAME:-radeonsi}"
 
-SCRATCH_DIR="${SCRATCH_DIR:-/var/tmp/jellyfin-transcode-$USER}"
+SCRATCH_DIR="${SCRATCH_DIR:-/tmp/jellyfin-transcode-$USER}"
 KEEP_SCRATCH="${KEEP_SCRATCH:-0}"
 DRYRUN="${DRYRUN:-0}"
 FORCE="${FORCE:-0}"

@@ -70,7 +70,7 @@ for f in *.mkv; do
 done
 
 # Eject the disc
-eject $DRIVE
+eject -r $DRIVE
 
 echo "Rip complete: $OUTPUT_FOLDER"
 
