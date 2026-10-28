@@ -14,7 +14,7 @@ case "$SERV_TYPE" in
     SERV_ADDRESS="/mnt/plexmedia"
     ;;
   jellyfin)
-    SER_ADDRESS="/mnt/jellyfin"
+    SERV_ADDRESS="/mnt/jellyfin"
     ;;
   *)
     echo "Invalid argument: $SERV_TYPE. Use 'local' or /mnt/ folder."
